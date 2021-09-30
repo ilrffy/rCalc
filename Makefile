@@ -3,7 +3,7 @@ IDIR =./include
 ODIR=./obj
 
 CC=gcc
-CFLAGS=-std=c99 -g3 -Wall -I$(IDIR)
+CFLAGS=-std=c99 -g3 -Wall -Wextra -I$(IDIR)
 
 GTKCFLAGS=`pkg-config --cflags gtk+-3.0`
 GTKLIBS=`pkg-config --libs gtk+-3.0`
